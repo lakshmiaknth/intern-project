@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1 design</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    
+    <aside>
+<figure>
+    <div id="avatar">
+
+    </div>
+<figcaption>lakshmikanth</figcaption>
+</figure>
+<img src="C:\Users\lk the gr8\Desktop\menu.png" alt="menu icon">
+    <nav>
+        <ul >
+            <li><a href="/">home</a></li>
+            <li><a href="/">about</a></li>
+            <li><a href="/">portfolio</a></li>
+            <li><a href="/">contact</a></li>
+
+        </ul>
+
+    </nav>
+</aside>
+    <main>
+<h1>i am new designer</h1>
+<p>i am new i am putting all my effort into this.</p>  
+<a href="/" class="cta"> My first project. </a>
+</main>  
+    <script>
+    (function(){
+var menu=document.querySelector('ul'),
+        menulink=document.querySelector('img'); 
+    menulink.addEventListener('click',function(e){
+
+        menu.classList.toggle('active')
+        e.preventDefault();
+   });
+    
+    })();
+    </script>
+</body>
+</html>
